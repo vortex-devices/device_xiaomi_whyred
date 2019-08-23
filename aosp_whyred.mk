@@ -26,6 +26,9 @@ $(call inherit-product, device/xiaomi/whyred/device.mk)
 # Inherit some common Vortex OS stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+#OFFICIAL TAG
+export CUSTOM_BUILD_TYPE=OFFICIAL
+
 PRODUCT_NAME := aosp_whyred
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := whyred
